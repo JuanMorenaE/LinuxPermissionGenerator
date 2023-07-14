@@ -14,3 +14,5 @@ e.g:
 ```console
 sudo chmond 755 myFile.txt
 ```
+
+[Link to the website here]([https://link-url-here.org](https://juaniiandresm.github.io/LinuxPermissionGenerator/)https://juaniiandresm.github.io/LinuxPermissionGenerator/)
