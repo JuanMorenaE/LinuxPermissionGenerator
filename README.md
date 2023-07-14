@@ -10,13 +10,13 @@ In Linux, there are three main types of users in terms of permissions:
 
 By checking the checkboxes below each type, you can choose which type of permission you want to assign for each.
 
-Once you finish assigning the permissions, the chmond command will be display below the table,
+Once you finish assigning the permissions, the chmon command will be display below the table,
 just copy it and paste it in your Linux Terminal, following with the file or folder you want to change.
 
 e.g:
 
 ```console
-sudo chmond 755 myFile.txt
+sudo chmon 755 myFile.txt
 ```
 
 [Link to the website here](https://juaniiandresm.github.io/LinuxPermissionGenerator/)
