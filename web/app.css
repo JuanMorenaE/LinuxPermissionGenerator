@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary-color: #334365;
+    --background: #312f35;
+    --container: #dfd8ce;
+}
+
+main {
+    background-color: var(--background);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+
+    margin: 20px;
+    padding: 20px;
+
+    text-align: center;
+    background-color: var(--container);
+    border-radius: 20px;
+
+    .title {
+        color: var(--primary-color);
+        font-size: 40px;
+        margin: 0 20px;
+        margin-bottom: 0px;
+    }
+    .description {
+        font-size: 17px;
+        margin: 0 20px;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+    }
+    .generator {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .generator th {
+        background-color: var(--primary-color);
+        color: var(--container);
+        padding: 10px;
+
+        &:nth-child(1) {
+            border-radius: 10px 0 0 0;
+        }
+        &:nth-child(3) {
+            border-radius: 0 10px 0 0;
+        }
+    }
+    .generator td {
+        padding: 5px;
+        text-align: center;
+
+        .permissionType,
+        .permissionNumber {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Courier New", Courier, monospace;
+        }
+        .checkbox {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .generator tr {
+        background-color: var(--container);
+    }
+
+    .command-text {
+        text-align: center;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 10px;
+        outline: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: var(--container);
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #252525;
+    color: var(--container);
+}

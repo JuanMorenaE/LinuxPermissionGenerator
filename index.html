@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- ==================================================================== -->
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- ==================================================================== -->
+
+        <title>Tizify - Linux Permission Generator</title>
+        <meta name="description" content="A minimal and simple permission generator command for Linux by Tizify." />
+        <meta name="keywords" content="Linux, Permission, Generator, Linux Generator, Linux Permission Generator" />
+        <meta name="robots" content="index,follow" />
+
+        <!-- ===========================[Preconnects]============================ -->
+
+        <!-- ==================================================================== -->
+
+        <link rel="stylesheet" href="/web/app.css" media="all" />
+
+        <!-- =============================[Preloads]============================= -->
+
+        <!-- ==================================================================== -->
+
+        <script src="/web/app.js" defer></script>
+
+        <!-- ==================================================================== -->
+
+        <meta name="author" content="Nombre del Creador de la Página." />
+        <meta name="apple-mobile-web-app-title" content="Page Name" />
+        <meta name="application-name" content="Page Name" />
+        <meta name="theme-color" content="" />
+
+        <!-- ==================================================================== -->
+
+        <!-- <link rel="shortcut icon" href="/build/assets/images/favicon.png" type="image/x-icon" /> -->
+        <!-- <link rel="apple-touch-icon" href="/build/assets/images/favicon.png" /> -->
+        <!-- <link rel="manifest" href="/build/manifest.webmanifest" /> -->
+
+        <!-- ==================================================================== -->
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.website.com/" />
+        <meta property="og:title" content="Tizify - Linux Permission Generator" />
+        <meta property="og:description" content="A minimal and simple permission generator command for Linux by Tizify." />
+        <!-- <meta property="og:image" content="https://www.website.com/media/MetaImage.png" /> -->
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.website.com/" />
+        <meta property="twitter:title" content="Tizify - Linux Permission Generator" />
+        <meta property="twitter:description" content="A minimal and simple permission generator command for Linux by Tizify." />
+        <!-- <meta property="twitter:image" content="https://www.website.com/media/MetaImage.png" /> -->
+
+        <!-- ==================================================================== -->
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <h1 class="title">Linux Permission Generator</h1>
+                <p class="description">A minimal and simple permission generator command for Linux by Tizify.</p>
+
+                <table class="generator">
+                    <thead>
+                        <tr>
+                            <th>Owner</th>
+                            <th>Group</th>
+                            <th>Others</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><p class="permissionType" id="permissionType1">---</p></td>
+                            <td><p class="permissionType" id="permissionType2">---</p></td>
+                            <td><p class="permissionType" id="permissionType3">---</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="checkbox" type="checkbox" id="w1" value="4" permission="1" />
+                                <input class="checkbox" type="checkbox" id="r1" value="2" permission="1" />
+                                <input class="checkbox" type="checkbox" id="x1" value="1" permission="1" />
+                            </td>
+                            <td>
+                                <input class="checkbox" type="checkbox" id="w2" value="4" permission="2" />
+                                <input class="checkbox" type="checkbox" id="r2" value="2" permission="2" />
+                                <input class="checkbox" type="checkbox" id="x2" value="1" permission="2" />
+                            </td>
+                            <td>
+                                <input class="checkbox" type="checkbox" id="w3" value="4" permission="3" />
+                                <input class="checkbox" type="checkbox" id="r3" value="2" permission="3" />
+                                <input class="checkbox" type="checkbox" id="x3" value="1" permission="3" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="permissionNumber" id="permission1">0</p></td>
+                            <td><p class="permissionNumber" id="permission2">0</p></td>
+                            <td><p class="permissionNumber" id="permission3">0</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input class="command-text" type="text" value="$ sudo chmon 000" disabled />
+            </div>
+        </main>
+
+        <footer>By Tizify ®.</footer>
+    </body>
+</html>
