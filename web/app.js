@@ -1,9 +1,9 @@
 window.addEventListener("load", () => {
     let inputs = document.querySelectorAll("input");
 
-    let permission1 = parseInt(document.getElementById("permission1").textContent);
-    let permission2 = parseInt(document.getElementById("permission2").textContent);
-    let permission3 = parseInt(document.getElementById("permission3").textContent);
+    const permissionType1 = document.getElementById("permissionType1");
+    const permissionType2 = document.getElementById("permissionType2");
+    const permissionType3 = document.getElementById("permissionType3");
 
     inputs.forEach((input) => {
         input.addEventListener("click", () => {
@@ -23,6 +23,9 @@ window.addEventListener("load", () => {
                 getPermissionValue(1).toString() +
                 getPermissionValue(2).toString() +
                 getPermissionValue(3).toString();
+
+            document.getElementById("fullPermissionType").textContent =
+                permissionType1.textContent + permissionType2.textContent + permissionType3.textContent;
         });
     });
 
