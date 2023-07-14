@@ -98,6 +98,7 @@ main {
         border-radius: 0 0 10px 10px;
         color: var(--container);
         font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
     }
 }
 
