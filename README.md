@@ -19,4 +19,4 @@ e.g:
 sudo chmon 755 myFile.txt
 ```
 
-[Link to the website here](https://juaniiandresm.github.io/LinuxPermissionGenerator/)
+[Link to the website here](https://juanmorenae.github.io/LinuxPermissionGenerator/)
